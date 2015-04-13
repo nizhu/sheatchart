@@ -1,0 +1,29 @@
+{
+  "name": "sheatchart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/api/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nizhu/sheatchart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nizhu/sheatchart/issues"
+  },
+  "homepage": "https://github.com/nizhu/sheatchart",
+  "dependencies": {
+    "async": "^0.9.0",
+    "glob": "^5.0.5",
+    "lodash": "^3.6.0",
+    "node-gyp": "^1.0.3",
+    "pg": "^4.3.0",
+    "restify": "^3.0.2",
+    "split": "^0.3.3",
+    "waf": "0.0.0"
+  }
+}
